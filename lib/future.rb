@@ -1,6 +1,6 @@
 
 class Future
-	VERSION = "0.0.0"
+	VERSION = "0.0.1"
 
 	def initialize(obj, name, args, block)
 		@obj, @name, @args, @block = obj, name, args, block
