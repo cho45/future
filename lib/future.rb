@@ -1,0 +1,4 @@
+
+class Future
+
+end
