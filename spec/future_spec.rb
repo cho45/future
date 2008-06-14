@@ -68,6 +68,12 @@ describe Future do
 		@o.result.should == [ ]
 		future.inspect.should == ":foo"
 		@o.result.should == [ [0.1, :foo] ]
+
+		# async object
+		future = @o.async.heavy(0.1, :foo)
+		@o.result.should == [ ]
+		future.inspect.should == ":foo"
+		@o.result.should == [ [0.1, :foo] ]
 	end
 
 	it "should handle block correctly" do
