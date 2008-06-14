@@ -1,4 +1,3 @@
-(in /Users/cho45/project/future)
 Gem::Specification.new do |s|
   s.name = %q{future}
   s.version = "0.0.0"
