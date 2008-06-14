@@ -116,6 +116,7 @@ end
 
 desc "Show information about the gem"
 task :debug_gem do
+	require "date"
 	puts spec.to_ruby
 end
 
